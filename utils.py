@@ -20,10 +20,10 @@ print(f"\nRunning on device: {device}")
 
 current_file_directory = os.path.dirname(os.path.abspath(__file__))
 
-print("Loding models")
+print("Loading models")
 embedding_model = InceptionResnetV1(pretrained='vggface2').eval().to(device)
 face_detection_model = YOLO(os.path.join(current_file_directory,"yolov8l-face.pt")).to(device)
-print("Done loding models")
+print("Done loading models")
 
 transform = transforms.Compose([
     transforms.Resize((160, 160)),

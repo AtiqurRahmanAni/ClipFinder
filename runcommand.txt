@@ -1,0 +1,1 @@
+venv/bin/python ./ClipFinder/main.py --reference-imgs-dir ./ClipFinder/reference_images --video ./ClipFinder/videoplayback2.mp4 --output-dir ./ClipFinder/outputs --face-similarity-threshold 0.70 --merge-threshold 2 --do-merge true
