@@ -17,3 +17,5 @@ on version **3.10** or higher is required to run the backend of this project. It
 **Note:** Install `PyTorch` based on your device configuration by referring to the [installation page](https://pytorch.org/get-started/locally/). If you are using **NVIDIA GPU**, 
 you do not need to install `torch==2.4.1+rocm6.1`, `torchaudio==2.4.1+rocm6.1`, and `torchvision==0.19.1+rocm6.1`. Remove them from the `requirements.txt` file before executing `pip install -r requirements.txt`. This also applies if you don't have a dedicated GPU.
 
+### Project demo
+YouTube: [Link](https://youtu.be/cDSp6RYn1lY?si=8EnwzjbIKAyrsVHy)
